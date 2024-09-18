@@ -3,7 +3,7 @@
 1. **Clone the repository**:
 
 ```bash
-git clone git@github.com:jeffzi/luals-example.git
+git clone https://github.com/jeffzi/luals-example.git
 ```
 
 2. **Initialize submodules**:
