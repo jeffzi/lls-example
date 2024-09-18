@@ -29,6 +29,13 @@ lua-language-server --check . --logpath logs
 # Diagnosis complete, 2 problems found, see logs/check.json
 ```
 
+Passing the full path doesn't work either.
+
+```bash
+lua-language-server --check /Users/jeffzi/Projects/personal/lua/luals-example/ --logpath logs
+# Diagnosis complete, 2 problems found, see logs/check.json
+```
+
 4. **Modify the `workspace.library` path**:  
    Edit the `"workspace.library"` field in `luarc.json` to use an absolute path instead of a relative one, for example:
 
