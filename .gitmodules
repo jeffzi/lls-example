@@ -1,0 +1,6 @@
+[submodule "annotations/busted"]
+	path = annotations/busted
+	url = git@github.com:LuaCATS/busted.git
+[submodule "annotations/luassert"]
+	path = annotations/luassert
+	url = git@github.com:LuaCATS/luassert.git
